@@ -4,6 +4,7 @@ function addAnswerButton(buttonText, nextState) {
   let answerButtonElement = document.createElement("button");
   let optionButtons = document.getElementById("option-buttons");
   answerButtonElement.textContent = buttonText;
+  // step 3
   answerButtonElement.addEventListener("click", function () {
     currentState = nextState;
     renderQuestion();
