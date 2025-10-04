@@ -17,6 +17,7 @@ function renderQuestion() {
   let buttonAnswer = document.getElementById("option-buttons");
   buttonAnswer.innerHTML = "";
 
+  // step 4 I chose to use if else for different path
   if (currentState === "beginning") {
     textQuestion.textContent =
       "Choose Claire, Leon, or Ada to start your adventure.";
